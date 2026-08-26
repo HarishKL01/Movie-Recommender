@@ -13,7 +13,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 1. Update the model to accept either a genre or a movie
+
 class UserProfile(BaseModel):
     name: str
     age: int
@@ -24,12 +24,11 @@ class UserProfile(BaseModel):
 def list_genres():
     return recommender.get_available_genres()
 
-# 2. Add the missing search endpoint
+
 @app.get("/movies/search")
 def search_movies(query: str):
     return recommender.search_movies(query)
 
-# 3. Fix the route to pass the correct arguments
 @app.post("/recommend")
 def recommend_for_user(profile: UserProfile):
     return recommender.get_recommendations_for_user(
