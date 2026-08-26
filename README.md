@@ -1,7 +1,3 @@
-Here is a fully formatted, GitHub-ready `README.md` complete with a structured layout, code blocks, API examples, and project hierarchy. You can copy this directly into your repository.
-
----
-
 # 🎬 MovieLens Recommendation API
 
 A fast, lightweight recommendation backend built with Python, FastAPI, and Pandas. This API powers movie searches, genre listings, and personalized recommendations using the classic MovieLens dataset.
