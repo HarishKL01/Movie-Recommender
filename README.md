@@ -2,7 +2,7 @@
 
 A lightweight full-stack platform featuring a simple HTML frontend and a robust backend built with Python, FastAPI, and Pandas. This application powers live movie searches, genre listings, and personalized recommendations using the classic MovieLens dataset.
 
-## 🚀 Features
+## 💿Features
 
 * **HTML Frontend:** A clean, vanilla HTML/JS interface that connects seamlessly to the API without requiring complex build tools.
 * **Content-Based Filtering:** Generates recommendations using weighted ratings for a user's favorite genre.
@@ -18,7 +18,7 @@ A lightweight full-stack platform featuring a simple HTML frontend and a robust 
 
 
 
-## 🛠️ Tech Stack
+## 🎛️Tech Stack
 
 * **Frontend:** HTML, Vanilla JavaScript, CSS
 * **Backend Framework:** FastAPI
@@ -31,7 +31,7 @@ A lightweight full-stack platform featuring a simple HTML frontend and a robust 
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── index.html             # Main HTML frontend interface
@@ -44,7 +44,7 @@ A lightweight full-stack platform featuring a simple HTML frontend and a robust 
 
 ```
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 **1. Clone the repository**
 
